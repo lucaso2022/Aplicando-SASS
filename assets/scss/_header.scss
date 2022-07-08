@@ -1,0 +1,31 @@
+header {
+    background-color: aqua;
+    
+    & ul {
+        display: inline-block;
+        color: black;
+        background-color: aqua;
+
+    }
+
+    & li {
+        display: inline-block;
+        list-style-type: none;
+        margin: 0 0px;
+        margin-top: 5%;
+    }
+
+    &a { 
+        color: black;
+        
+    }
+    
+    & hover {
+        color: aliceblue;
+        list-style-type: none;
+
+    }
+        }
+
+
+
