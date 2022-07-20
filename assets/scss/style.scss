@@ -1,1 +1,14 @@
-@import "header" 
+/*variables*/
+@import './variables';
+
+/*normalize*/
+@import './mormalize';
+
+/*mixins*/
+@import './mixins';
+
+@import './parthials/header';
+
+@import './parthials/home';
+
+@import './parthials/footer';

@@ -4,104 +4,85 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>LUALIMA</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
-    <script src="assets/js/jquery.slim.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
-<html>
+
+    <html>
     <body>
-        <header class="cs-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <h1> LUALIMA</h1>
-                    </div>
-                    <div class="col-6">
-                     <nav>
-                        <ul>
-                         <li class="breadcrumb-item active"><a href="index.html">Inicio</a></li>
-                         <li class="breadcrumb-item active"><a href="productos.html">Productos</a></li>
-                         <li class="breadcrumb-item active"><a href="promociones.html">Promociones</a></li>
-                         <li class="breadcrumb-item active"><a href="contacto.html">Contacto</a></li>
-                         <li class="breadcrumb-item active"><a href="iniciar_sesion.html"> Iniciar Sesion</a></li>
-                        </ul>
-                     </nav>
+        <!----inicio de header-->
+        <header>
+            <picture class="img__logo">
+                <img class="header__img" src="assets/img/WhatsApp Image 2022-07-14 at 10.02.44 PM.jpeg" alt="logo">
+            </picture>
+            <nav class="navigation">
+                <ul class="menu">
+                 <li class="menu__item"><a class="menu__link" href="index.html">Inicio</a></li>
+                 <li class="menu__item"><a class="menu__link" href="productos.html">Productos</a></li>
+                 <li class="menu__item"><a class="menu__link" href="contacto.html">Contacto</a></li>
+                 <li class="menu__item"><a class="menu__link" href="iniciar_sesion.html"> Iniciar Sesion</a></li>
+                </ul>
+            </nav>
                    </div>
                </div>
            </div>
         </header>
-            <section id="intro" class="container mt-5">
-             <div class="text-center">
+        <!--fin  de header-->
+
+        <!--inicio blog-->
+            <section class="container">
+             <div class="title">
                 <h1>¿QUENES SOMOS?</h1>
              </div>
-                <p class="text-center mt-5"> ¿Sabias que el 95% de la ropa puede ser reciclada o reutilizada? <br><br>
+                <p class="text"> ¿Sabias que el 95% de la ropa puede ser reciclada o reutilizada? <br><br>
   
                     En Lualima le damos otra oportunidad a esa ropa que podamos mantener activa mientras tenga vida util
                     y esten sin uso en el placard, hacemos girar la moda sustentable.<br><br>
                     
                     podemos vestirnos bien sin gastar una fortuna y ayudando a nuestro planeta </p>
             </section>
-            <section class="container-fluid mt-5">
-                <div class="text-center">
+        <!--fin de blog-->
+
+            <!--inicio home-->
+        <div class="container">
+            
+                <div>
                     <h2>ULTIMOS ARTICULOS</h2>
                 <div>
-            <div class="row justify-content-aroun d-flex flex-wrap align-content-start">
-                <article class="p-2 card">
-                    <img class="card-img-top" src=https://i.linio.com/p/01d1c98bbb40e5abcc61b14c85bfeca5-product.jpg alt="CAMISA MANGA LARGA HOMBRE MOSSIMO"></img>
-                <p class="card-body">CAMISA MANGA LARGA HOMBRE MOSSIMO </p>
-            </article>
-            <article class="p-2 card">
-                <img class="card-img-top"  src="https://falabella.scene7.com/is/image/FalabellaPE/17668799_1" alt="BLAZER CUADROS MUJER MANGO"></img>
-                <p class="card-body">BLAZER CUADROS MUJER MANGO</p>
-            </article>	
-                <article class="p-2 card">
-                 <img class="card-img-top" src="https://falabella.scene7.com/is/image/Falabella/16128436_1" alt="JEAN SLIM HOMBRE">
-                <P class="card-body">JEAN SLIM HOMBRE</P>
-            </article>
-                <article class="p-2 card">
-                <img class="card-img-top" src="https://http2.mlstatic.com/D_NQ_NP_686896-MLU48445810369_122021-W.jpg" alt="PANTALON DE LINO BLANCO MUJER">
-                <P class="card-body">PANTALON DE LINO BLANCO MUJER</P>
-            </article>
-            </div>
-            
-            </section>
-
-            <section>
-                <div class="container mt-5">
-                    <h2> DEJANOS TUS DATOS PARA ENVIARTE LAS OFERTAS</h2>
-                    <form>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput">NOMBRE</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="NOMBRE">
-                          </div>
-                          <div class="form-group">
-                            <label for="formGroupExampleInput2">APELLIDO</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="APELLIDO">
-                          </div>
-                          <div class="form-group">
-                            <label for="formGroupExampleInput2">EMAIL</label>
-                            <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="EMAIL">
-                          </div>
-                          <div class="form-group row mt-5">
-                          <div class="col-sm-10 offset-sm-2">
-                            <button type="submit" class="btn btn-primary">ENVIAR</button>
-                          </div>
+              <section id="card" class="cards">     
+                <article class="box">
+                 <picture class="box__img">
+                  <img src="assets/img/WhatsApp Image 2022-07-14 at 10.04.27 PM.jpeg" alt="CAMISA MANGA LARGA HOMBRE MOSSIMO"></img>
+                 </picture>
+                  <div class="box__info">
+                    <h2 class="box__title">CAMISA MANGA LARGA MUJER</h2>
+                    <p class="box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada non eros et mattis. Mauris ut mi sodales, efficitur purus quis, egestas tortor. Donec fringilla sollicitudin turpis, quis hendrerit turpis sodales et. Aenean vel faucibus nulla. Vestibulum in dui elit. Pellentesque lobortis suscipit facilisis. Mauris eu odio in diam faucibus volutpat. Curabitur eget eleifend mauris. </p>
+                  </div>
+                 </article>
+                 <article class="box">
+                    <picture class="box__img">
+                        <img src="assets/img/WhatsApp Image 2022-07-14 at 10.04.33 PM.jpeg" alt="BLAZER CUADROS MUJER MANGO"></img>                    </picture>
+                    <div class="box__info">
+                       <h2 class="box__title">PANTALON DE MUJER NEGRO</h2>
+                       <p class="box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada non eros et mattis. Mauris ut mi sodales, efficitur purus quis, egestas tortor. Donec fringilla sollicitudin turpis, quis hendrerit turpis sodales et. Aenean vel faucibus nulla. Vestibulum in dui elit. Pellentesque lobortis suscipit facilisis. Mauris eu odio in diam faucibus volutpat. Curabitur eget eleifend mauris. </p>
+                    </div>
+                 </article>
+                 <article class="box">
+                        <picture class="box__img">
+                         <img src="assets/img/WhatsApp Image 2022-07-14 at 10.04.28 PM.jpeg" alt="JEAN SLIM HOMBRE">
+                        </picture>
+                        <div class="box__info">
+                           <h2 class="box__title">VESTIDO DE MUJER ORIGINAL</h2>
+                           <p class="box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada non eros et mattis. Mauris ut mi sodales, efficitur purus quis, egestas tortor. Donec fringilla sollicitudin turpis, quis hendrerit turpis sodales et. Aenean vel faucibus nulla. Vestibulum in dui elit. Pellentesque lobortis suscipit facilisis. Mauris eu odio in diam faucibus volutpat. Curabitur eget eleifend mauris. </p>
                         </div>
-                        
-                       
-                          
-                          
-                      </form>
-
-                </div>
-            </section>
+                 </article>
+                 
+                </section>
+        </div>
+        <!--fin de home-->
             
-        
-            <footer class="container-fluid text-center mt-5">
+        <!--inicio footer-->
+            <footer>
                 <span style="font-size: 11px;">Copyright &copy; - Lualima &reg; Desarrollo Web</span>
             </footer>
-        </div>
-    </div>
     </body>
 </html>

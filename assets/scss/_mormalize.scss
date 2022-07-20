@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Oswald&family=Raleway:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Oswald&family=Raleway:wght@200&display=swap');
+
+* ::after
+*::before
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $title-font;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: $text;
+    color: $secondary;
+}
+
+img{
+    width: 100%;
+}
+
+

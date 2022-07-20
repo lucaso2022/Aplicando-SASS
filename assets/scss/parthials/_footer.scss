@@ -1,0 +1,6 @@
+footer{
+    @include flex (row,space-around,center);
+    padding: $small;
+    border-top: 2px solid $secondary;
+    background-color:#f5ffba;
+}

@@ -1,0 +1,52 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: $medium;
+}
+
+.title{
+    font-family: $title-font;
+    font-size: $large;
+}
+
+.text{
+    font-family: $text;
+    font-size: $medium;
+}
+
+.cards{
+    @include flex(row,center,none);
+    gap: $xsmall;
+    flex-wrap: wrap;
+
+    .box{
+        @include flex(column,none,none);
+        gap: $xsmall;
+        flex: 1 1 clamp(300px, 30%, 400px);
+
+        &__info{
+            display: flex;
+            flex-direction: column;
+            padding: $medium;
+        }
+
+        &__title{
+            font-family: $title-font;
+            font-size: $medium;
+            color: $secondary;
+        }
+
+        &__subtitle{
+            margin-top: 0.5rem;
+            color: $secondary;
+            font-size: $base;
+        }
+
+        &__text{
+            margin-top: $small;
+            font-size: $base;
+            color: $secondary;
+        }
+    }
+
+}
